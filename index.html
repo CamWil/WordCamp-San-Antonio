@@ -11,6 +11,48 @@
     <title>WordCamp San Antonio</title>
   </head>
   <body>
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-primary bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand order-1 mr-0" href="#" target="_blank">Presented by NVC</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#speakers">Speakers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#schedule">Schedule</a>
+        </li>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- /navbar -->
+<!-- jumbotron -->
+<div class="jumbotron">
+<div class="container text-sm-center pt-5">
+  <h1 class="display-4">Wordcamp SanAntonio</h1>
+  <p class="lead">A One-day Conference About WordPress</p>
+  <hr class="my-4">
+  <p>A One-day Conference About WordPress</p>
+  <div class="mt-5">
+  <button type="button" class="btn btn-secondary btn-lg ">Register Now</button>
+  <a class="btn btn-light btn-lg bg-primary" href="#speakers">See Speakers</a>
+</div>
+</div>
+</div>
+
+<!-- /jumbotron -->
     <h1>WordCamp San Antonio</h1>
     <div class="container pt-4">
   <!-- about -->
@@ -29,26 +71,133 @@
     </div>
     <div class="col-lg order-3">
       <h3 class="mb-4">What You'll Learn</h3>
-      <ul>
-      <li><strong>WordPress 5</strong>: New Gutenberg editor</li>
-      <li><strong>WooCommerce</strong>: E-commerce platform</li>
-      <li><strong>Hosting</strong>: Managed web hosting</li>
-      <li><strong>Themes</strong>: Creating your theme</li>
-      <li><strong>Plugins</strong>: Develop your plugin</li>
-      <li><strong>Content</strong>: Writing and podcasts</li>
-      </ul>
+     <div class="list-group">
+  <a href="#" class="list-group-item list-group-item-action"><strong>WordPress 5</strong>: New Gutenberg editor</a>
+  <a href="#" class="list-group-item list-group-item-action"><strong>WooCommerce</strong>: E-commerce platform</a>
+  <a href="#" class="list-group-item list-group-item-action"><strong>Hosting</strong>: Managed web hosting</a>
+  <a href="#" class="list-group-item list-group-item-action"><strong>Themes</strong>: Creating your theme</a>
+  <a href="#" class="list-group-item list-group-item-action"><strong>Plugins</strong>: Develop your plugin</a>
+  <a href="#" class="list-group-item list-group-item-action"><strong>Content</strong>: Writing and podcasts</a>
+</div>
     </div>
   </div>
   <!-- /about -->
   <!-- speakers -->
-  <h1 class="display-4 text-center my-5 text-muted">Speakers</h1>
-  [Speakers bios go here]
+<h2 id="speakers" class="display-4 text-center my-5 text-muted">Speakers</h2>
+<div class="row">
+  <div class="col-md-6 col-lg-4">
+    <div class="card mb-3">
+  <img class="card-img-top" src="bill.png" alt="Bill Belsh">
+  <div class="card-body">
+    <h4 class="card-title">Bill Belsh</h4>
+    <p class="card-text">Lead designer of Belsh net.</p>
+  </div>
+</div>
+  </div>
+  <div class="col-md-6 col-lg-4">
+    <div class="card mb-3">
+  <img class="card-img-top" src="angy.png" alt="Angy Roth">
+  <div class="card-body">
+    <h4 class="card-title">Angy Roth</h4>
+    <p class="card-text">Up and coming in the web developing world learn her tricks.</p>
+  </div>
+</div>
+  </div>
+  <div class="col-md-6 col-lg-4">
+    <div class="card mb-3">
+  <img class="card-img-top" src="Bob.png" alt="Bob Bobbet">
+  <div class="card-body">
+    <h4 class="card-title">Bob Bobbet</h4>
+    <p class="card-text">Consultant designer of the popular search engine zaboomafoo.</p>
+  </div>
+</div>
+  </div>
+  <div class="col-md-6 col-lg-4">
+    <div class="card mb-3">
+  <img class="card-img-top" src="Ted.png" alt="Ted Wed">
+  <div class="card-body">
+    <h4 class="card-title">Ted Wed</h4>
+    <p class="card-text">Assisstant designer of belsh net.</p>
+  </div>
+</div>
+  </div>
+  <div class="col-md-6 col-lg-4">
+    <div class="card mb-3">
+  <img class="card-img-top" src="jess.png" alt="Jess Sparks">
+  <div class="card-body">
+    <h4 class="card-title">Jess Sparks</h4>
+    <p class="card-text">Ceo of Sparks co web delevopment.</p>
+  </div>
+</div>
+  </div>
+  <div class="col-md-6 col-lg-4">
+    <div class="card mb-3">
+  <img class="card-img-top" src="chris.png" alt="Chris Cross">
+  <div class="card-body">
+    <h4 class="card-title">Chris Cross</h4>
+    <p class="card-text">Lead Wordpress trend setter. learn about uo and coming trends in Wordpress.</p>
+  </div>
+</div>
+  </div>
+</div>
 <!-- /speakers -->
 
 <!-- schedule -->
-  <h1 class="display-4 text-center my-5 text-muted">Schedule</h1>
-  [Conference schedule goes here]
+<h2 id="schedule" class="display-4 text-center my-5 text-muted">Schedule</h2>
+<ul class="list-group">
+  <li class="list-group-item">
+    <div class="d-flex justify-content-between">
+      <h5 class="mb-1">Keynote: WordPress 5.0</h5>
+      <span class="badge badge-pill badge-secondary p-2">9:00am</span>
+    </div>
+    <p class="mb-1">Jess Sparks</p>
+  </li>
+  <li class="list-group-item">
+    <div class="d-flex justify-content-between">
+      <h5 class="mb-1">Woocommerce Basics</h5>
+      <span class="badge badge-pill badge-secondary p-2">10:00am</span>
+    </div>
+    <p class="mb-1">Ted Wed</p>
+  </li>
+  <li class="list-group-item">
+    <div class="d-flex justify-content-between">
+      <h5 class="mb-1">WPEngine & Flywheel</h5>
+      <span class="badge badge-pill badge-secondary p-2">11:00am</span>
+    </div>
+    <p class="mb-1">Angy Roth</p>
+  </li>
+  <li class="list-group-item">
+    <div class="d-flex justify-content-between">
+      <h5 class="mb-1">Lunch</h5>
+      <span class="badge badge-pill badge-secondary p-2">12:00pm</span>
+    </div>
+    <p class="mb-1">Free Pizza!</p>
+  </li>
+  <li class="list-group-item">
+    <div class="d-flex justify-content-between">
+      <h5 class="mb-1">Creating your Theme</h5>
+      <span class="badge badge-pill badge-secondary p-2">1:00pm</span>
+    </div>
+    <p class="mb-1">Bob Bobbet</p>
+  </li>
+  <li class="list-group-item">
+    <div class="d-flex justify-content-between">
+      <h5 class="mb-1">Developing a Plugin</h5>
+      <span class="badge badge-pill badge-secondary p-2">2:00pm</span>
+    </div>
+    <p class="mb-1">Bill Belsh</p>
+  </li>
+  <li class="list-group-item">
+    <div class="d-flex justify-content-between">
+      <h5 class="mb-1">Creating great Content and Podcasts</h5>
+      <span class="badge badge-pill badge-secondary p-2">3:00pm</span>
+    </div>
+    <p class="mb-1">Chriss Cross</p>
+  </li>
+</ul>
 <!-- /schedule -->
+<!-- callout button -->
+<button type="button" class="btn btn-secondary btn-lg d-block mx-auto my-5">Don't Miss Out, Register Now</button> 
 <!-- signup form -->
 <hr>
 <div class="row py-4 text-muted">
@@ -68,6 +217,34 @@
 </div>
 <hr>
 <!-- /signup form -->
+<!-- footer -->
+  <div class="row py-3">
+    <div class="col-md-7">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Community</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tracks</a>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Action 2:electric boogaloo</a>
+    <a class="dropdown-item" href="#">Action 3: the return</a>
+  </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md text-md-right">
+      <small>&copy; 2019 WordCamp &amp; Northwest Vista College</small>
+    </div>
+  </div>
+<!-- /footer -->
 </div>
 
     <!-- Optional JavaScript -->
