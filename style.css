@@ -1,0 +1,27 @@
+.jumbotron{
+	background-image: url(cloud.jpg);
+}
+
+.display-4{
+	font-weight: bold;
+	text-decoration-color: black;
+}
+
+.lead{
+	font-weight: bold;
+	text-decoration-color: black;
+}
+
+.my-4{
+	font-weight: bold;
+	text-decoration-color: black;
+}
+
+
+body{
+	background-color: #c7c9c7;
+}
+
+p{
+	text-decoration-color: black;
+}
