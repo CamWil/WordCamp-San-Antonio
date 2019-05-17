@@ -1,5 +1,6 @@
 /* variables */
 $wc-color-blue: #3813c2;
+$wc-font: bold;
 
 /* jumbotron styles */
 .jumbotron{
@@ -26,6 +27,7 @@ $wc-color-blue: #3813c2;
 
 body{
 	background-color: $wc-color-blue;
+	font-style: $wc-font;
 }
 
 p{
